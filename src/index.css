@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+  background: #101010;
+  font-family: 'Chakra Petch', sans-serif;
+  color: #fff;
+
+}
+
+/* .hero{
+  width: 100vw;
+} */
+
+.hero{
+  overflow-x: clip;
+}
+
+.left-div{
+  background: radial-gradient(58.23% 58.23% at 50% 50%, rgba(87, 16, 123, 0.641) 0%, rgba(224, 39, 110, 0.00) 40%);
+  height: 20rem;
+  width: 30%;
+  scale: 4;
+  z-index: -2;
+}
+
+.right-div{
+  background: radial-gradient(58.23% 58.23% at 50% 50%, rgba(87, 16, 123, 0.641) 0%, rgba(224, 39, 110, 0.00) 60%);
+    height: 20rem;
+    width: 30%;
+    scale: 4;
+    z-index: -2;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* Adjust the bounce height here */
+  }
+
+}
+
+.bouncing-element {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+
+
+
+
